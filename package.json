@@ -9,7 +9,8 @@
     "build": "parcel build",
     "build-gh": "parcel build --public-url 'https://sohamx0.github.io/Portfolio'",
     "predeploy": "npm run build-gh",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "diploy": "npm run deploy"
   },
   "repository": {
     "type": "git",
