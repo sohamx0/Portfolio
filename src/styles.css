@@ -60,6 +60,15 @@ h2 {
   padding-top: 1rem;
 }
 
+/* Ensure the name and title in the Home hero are visible on dark backgrounds */
+#home h1 {
+  color: #ffffff;
+}
+
+#home h2 {
+  color: #ffffff;
+}
+
 h3 {
   font-weight: 400;
   font-size: 1.25rem;
