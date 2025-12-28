@@ -4,6 +4,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
 
+:root {
+  --bg: #0b0f14;
+  --surface: #0f1620;
+  --muted: #9ea9bf;
+  --text: #e6eef8;
+  --accent: #7c8cff;
+  --border: rgba(255,255,255,0.06);
+}
+
 html,
 body {
   font-family: "Montserrat", sans-serif;
@@ -12,6 +21,8 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  background: var(--bg);
+  color: var(--text);
 }
 
 div#main {
@@ -99,16 +110,16 @@ li {
 }
 
 li::marker {
-  color: #4e567e;
+  color: var(--accent);
 }
 
 a {
-  color: black;
+  color: var(--accent);
   text-decoration: none;
 }
 
 a:hover {
-  color: #4e567e;
+  color: #a9b6ff;
 }
 
 .container {
@@ -121,6 +132,8 @@ a:hover {
 .container .box {
   border-radius: 10px;
   border: 1px solid rgb(204, 204, 204);
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--border);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
