@@ -61,6 +61,13 @@ export default function About() {
                 'TensorFlow',
                 'Node.js',
                 'AI/ML',
+                'C',
+                'C++',
+                'Java',
+                'Git',
+                'GitHub',
+                'MongoDB',
+                'SQL',
               ].map((skill, i) => (
                 <motion.span
                   key={skill}
