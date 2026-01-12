@@ -100,7 +100,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-6xl md:text-8xl font-bold tracking-tight mb-6 text-balance"
         >
-          Hi, I'm{' '}
+          Hi, I&apos;m{' '}
           <motion.span
             className="bg-gradient-to-r from-gray-900 to-gray-600 dark:from-gray-100 dark:to-gray-400 bg-clip-text text-transparent inline-block"
             whileHover={{ scale: 1.05 }}
