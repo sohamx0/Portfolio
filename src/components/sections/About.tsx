@@ -29,9 +29,9 @@ export default function About() {
 
           <div className="space-y-6 text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
             {[
-              "I&apos;m a Computer Science student specializing in Artificial Intelligence at VIT Pune. I focus on building elegant and performant web applications with a keen eye for design and clean code.",
-              "My expertise spans modern frontend technologies, AI/ML integration, and full-stack development. I&apos;m always exploring new tools and frameworks to stay at the forefront of web development.",
-              "When I&apos;m not coding, you&apos;ll find me contributing to open source projects, learning about emerging technologies, or working on innovative AI solutions."
+              "I'm a Computer Science student specializing in Artificial Intelligence at VIT Pune. I focus on building elegant and performant web applications with a keen eye for design and clean code.",
+              "My expertise spans modern frontend technologies, AI/ML integration, and full-stack development. I'm always exploring new tools and frameworks to stay at the forefront of web development.",
+              "When I'm not coding, you'll find me contributing to open source projects, learning about emerging technologies, or working on innovative AI solutions."
             ].map((text, i) => (
               <motion.p
                 key={i}
