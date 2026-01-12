@@ -7,21 +7,21 @@ const experiences = [
   {
     title: 'CSE(AI) Student',
     company: 'VIT Pune',
-    period: '2023 - Present',
+    period: '2024 - Present',
     description:
       'Pursuing Computer Science with specialization in Artificial Intelligence, focusing on modern web development and AI/ML technologies.',
   },
   {
     title: 'Full Stack Developer',
     company: 'Personal Projects',
-    period: '2022 - Present',
+    period: '2025 - Present',
     description:
       'Building innovative web applications and AI-powered solutions, including crop health monitoring systems.',
   },
   {
     title: 'Open Source Contributor',
     company: 'GitHub',
-    period: '2021 - Present',
+    period: '2025 - Present',
     description:
       'Contributing to open source projects and sharing knowledge with the developer community.',
   },

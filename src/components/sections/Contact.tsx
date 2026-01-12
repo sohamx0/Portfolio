@@ -43,7 +43,7 @@ export default function Contact() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <motion.a
-              href="mailto:soham.maid@example.com"
+              href="mailto:sohammaid23@gmail.com"
               className="px-8 py-4 bg-black dark:bg-white text-white dark:text-black rounded-full font-medium text-lg relative overflow-hidden"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -76,9 +76,9 @@ export default function Contact() {
             <div className="flex gap-6 justify-center">
               {[
                 { name: 'GitHub', url: 'https://github.com/sohamx0' },
-                { name: 'LinkedIn', url: '#' },
-                { name: 'Twitter', url: '#' },
-                { name: 'Email', url: 'mailto:soham.maid@example.com' },
+                { name: 'LinkedIn', url: 'https://www.linkedin.com/in/soham-maid-6a738232a/' },
+                { name: 'Discord', url: '#' },
+                { name: 'Email', url: 'mailto:sohammaid23@gmail.com' },
               ].map((link, i) => (
                 <motion.a
                   key={link.name}

@@ -31,65 +31,6 @@ export default function Hero() {
       id="hero"
       className="min-h-screen flex items-center justify-center px-6 pt-20 relative overflow-hidden"
     >
-      {/* Animated black hole effect */}
-      <motion.div
-        className="absolute inset-0"
-        style={{
-          background: 'radial-gradient(circle at 50% 50%, transparent 0%, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.8) 70%, #000 100%)',
-        }}
-        animate={{
-          scale: [1, 1.2, 1],
-          rotate: [0, 360],
-        }}
-        transition={{
-          duration: 20,
-          repeat: Infinity,
-          ease: 'linear',
-        }}
-      />
-      
-      {/* Swirling particles effect */}
-      <motion.div
-        className="absolute inset-0 opacity-20"
-        style={{
-          background: 'radial-gradient(circle at 50% 50%, rgba(100,100,100,0.3) 0%, transparent 70%)',
-        }}
-        animate={{
-          scale: [1, 1.5, 1],
-          rotate: [0, -360],
-        }}
-        transition={{
-          duration: 15,
-          repeat: Infinity,
-          ease: 'linear',
-        }}
-      />
-
-      {/* Gravity distortion rings */}
-      {[1, 2, 3].map((ring) => (
-        <motion.div
-          key={ring}
-          className="absolute rounded-full border border-gray-600/20"
-          style={{
-            width: `${ring * 200}px`,
-            height: `${ring * 200}px`,
-            left: '50%',
-            top: '50%',
-            transform: 'translate(-50%, -50%)',
-          }}
-          animate={{
-            scale: [1, 1.1, 1],
-            opacity: [0.3, 0.1, 0.3],
-            rotate: ring % 2 === 0 ? [0, 360] : [360, 0],
-          }}
-          transition={{
-            duration: 8 + ring * 2,
-            repeat: Infinity,
-            ease: 'linear',
-          }}
-        />
-      ))}
-
       <motion.div
         className="max-w-4xl w-full relative z-10"
         variants={containerVariants}
@@ -146,8 +87,8 @@ export default function Hero() {
         <motion.div variants={itemVariants} className="mt-24 flex gap-6">
           {[
             { name: 'GitHub', url: 'https://github.com/sohamx0' },
-            { name: 'LinkedIn', url: '#' },
-            { name: 'Twitter', url: '#' },
+            { name: 'LinkedIn', url: 'https://www.linkedin.com/in/soham-maid-6a738232a/' },
+            { name: 'Discord', url: '#' },
           ].map((social, i) => (
             <motion.a
               key={social.name}
