@@ -12,11 +12,11 @@ const projects = [
     link: 'https://github.com/sohamx0/Crop-Health-AI',
   },
   {
-    title: 'Task Management App',
+    title: 'Weather App',
     description:
-      'Collaborative task manager with real-time updates, team workspaces, and advanced filtering.',
-    tech: ['React', 'Firebase', 'Tailwind'],
-    link: '#',
+      'Responsive weather app with city search, current location support, and OpenWeatherMap-powered data.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'OpenWeatherMap API'],
+    link: 'https://github.com/sohamx0/Weather-App',
   },
   {
     title: 'Analytics Dashboard',
