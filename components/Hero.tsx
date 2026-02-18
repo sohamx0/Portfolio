@@ -70,7 +70,7 @@ const Hero: React.FC = () => {
                 className="mt-16 flex flex-col md:flex-row items-center justify-center gap-6"
             >
                 <button className="px-8 py-4 bg-white text-black rounded-full font-bold text-lg hover:scale-105 hover:bg-accent transition-all duration-300">
-                    Let's Connect
+                  Let&#39;s Connect
                 </button>
                 <button className="px-8 py-4 rounded-full font-bold text-lg text-white border border-white/20 hover:bg-white/5 transition-all duration-300 flex items-center gap-2">
                     View Work <ArrowDown size={18} />

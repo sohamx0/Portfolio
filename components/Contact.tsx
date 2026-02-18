@@ -7,10 +7,10 @@ const Contact: React.FC = () => {
 
         <div>
             <h2 className="text-6xl md:text-8xl font-display font-black text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-600 mb-8">
-                LET'S<br/>WORK<br/>TOGETHER
+                LET&#39;S<br/>WORK<br/>TOGETHER
             </h2>
             <p className="text-xl text-gray-400 max-w-md mb-8">
-                Have a project in mind? Let's create something extraordinary.
+                Have a project in mind? Let&#39;s create something extraordinary.
             </p>
             <div className="flex flex-col gap-4">
                 <a href="mailto:sohammaid23@gmail.com" className="text-lg hover:text-accent transition-colors">sohammaid23@gmail.com</a>

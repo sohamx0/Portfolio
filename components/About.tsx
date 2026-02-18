@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, ExternalLink } from 'lucide-react';
@@ -47,7 +48,7 @@ const About: React.FC = () => {
                 
                 <div className="space-y-6 text-gray-400 text-lg leading-relaxed">
                     <p>
-                        Hi, I'm <span className="text-white font-medium">Soham Maid</span>. I am currently a CSE (AI) student at <span className="text-white font-medium">VIT Pune</span>, where I bridge the gap between creative design and technical engineering.
+                        Hi, I&#39;m <span className="text-white font-medium">Soham Maid</span>. I am currently a CSE (AI) student at <span className="text-white font-medium">VIT Pune</span>, where I bridge the gap between creative design and technical engineering.
                     </p>
                     <p>
                         My focus lies in building immersive web applications, exploring AI-driven solutions, and designing interfaces that feel futuristic yet intuitive. I believe in code that is as clean as the design it powers.
@@ -69,7 +70,7 @@ const About: React.FC = () => {
                         href="#contact" 
                         className="flex items-center gap-2 px-6 py-3 border border-white/20 text-white font-medium rounded-full hover:bg-white/10 transition-colors duration-300 group"
                     >
-                        <span>Let's Connect</span>
+                        <span>Let&#39;s Connect</span>
                         <ExternalLink size={16} className="group-hover:translate-x-1 transition-transform" />
                     </a>
                 </div>
