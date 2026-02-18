@@ -25,7 +25,6 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     if (savedTheme) {
       setTheme(savedTheme);
     }
-    // Default to light theme if no saved preference
   }, []);
 
   useEffect(() => {

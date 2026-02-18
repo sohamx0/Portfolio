@@ -58,8 +58,7 @@ export default function Navigation() {
               {section}
             </motion.button>
           ))}
-          
-          {/* Theme Toggle */}
+
           <motion.button
             onClick={toggleTheme}
             className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"

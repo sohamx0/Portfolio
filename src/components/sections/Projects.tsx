@@ -18,13 +18,6 @@ const projects = [
     tech: ['HTML', 'CSS', 'JavaScript', 'OpenWeatherMap API'],
     link: 'https://github.com/sohamx0/Weather-App',
   },
-  {
-    title: 'Analytics Dashboard',
-    description:
-      'Beautiful data visualization dashboard with interactive charts and real-time metrics.',
-    tech: ['TypeScript', 'D3.js', 'Node.js'],
-    link: '#',
-  },
 ];
 
 export default function Projects() {

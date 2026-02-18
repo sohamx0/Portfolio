@@ -12,7 +12,7 @@ const experiences = [
       'Pursuing Computer Science with specialization in Artificial Intelligence, focusing on modern web development and AI/ML technologies.',
   },
   {
-    title: 'Full Stack Developer',
+    title: 'Building Projects',
     company: 'Personal Projects',
     period: '2025 - Present',
     description:

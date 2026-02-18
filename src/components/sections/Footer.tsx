@@ -7,21 +7,6 @@ export default function Footer() {
         <p className="text-gray-600 dark:text-gray-400">
           © {currentYear} Soham Maid. All rights reserved.
         </p>
-
-        <div className="flex gap-6">
-          <a
-            href="#"
-            className="text-sm text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
-          >
-            Privacy
-          </a>
-          <a
-            href="#"
-            className="text-sm text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors"
-          >
-            Terms
-          </a>
-        </div>
       </div>
     </footer>
   );
