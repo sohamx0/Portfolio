@@ -88,7 +88,6 @@ export default function Hero() {
           {[
             { name: 'GitHub', url: 'https://github.com/sohamx0' },
             { name: 'LinkedIn', url: 'https://www.linkedin.com/in/soham-maid-6a738232a/' },
-            { name: 'Discord', url: '#' },
           ].map((social, i) => (
             <motion.a
               key={social.name}

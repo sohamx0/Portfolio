@@ -77,7 +77,6 @@ export default function Contact() {
               {[
                 { name: 'GitHub', url: 'https://github.com/sohamx0' },
                 { name: 'LinkedIn', url: 'https://www.linkedin.com/in/soham-maid-6a738232a/' },
-                { name: 'Discord', url: '#' },
                 { name: 'Email', url: 'mailto:sohammaid23@gmail.com' },
               ].map((link, i) => (
                 <motion.a
