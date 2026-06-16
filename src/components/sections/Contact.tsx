@@ -56,9 +56,9 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 border-2 border-black dark:border-white rounded-full font-medium hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors text-lg"
-              whileHover={{ scale: 1.05, rotate: [0, -5, 5, 0] }}
-              whileTap={{ scale: 0.95 }}
-              transition={{ duration: 0.3 }}
+              whileHover={{ scale: 0.95 }}
+              whileTap={{ scale: 0.9 }}
+              transition={{ duration: 0.2 }}
             >
               View GitHub
             </motion.a>

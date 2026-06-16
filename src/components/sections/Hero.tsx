@@ -45,7 +45,7 @@ export default function Hero() {
           <motion.span
             className="bg-gradient-to-r from-gray-900 to-gray-600 dark:from-gray-100 dark:to-gray-400 bg-clip-text text-transparent inline-block"
             whileHover={{ scale: 1.05 }}
-            transition={{ type: 'spring', stiffness: 300 }}
+            transition={{ type: 'spring', stiffness: 200 }}
           >
             Soham Maid
           </motion.span>
@@ -55,8 +55,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 max-w-2xl leading-relaxed"
         >
-          A CSE(AI) student at VIT Pune, crafting beautiful digital experiences with
-          modern web technologies.
+          A Computer Sciense Engineering(Artificial Intelligence) student at VIT Pune, crafting beautiful digital experiences with modern web technologies.
         </motion.p>
 
         <motion.div variants={itemVariants} className="mt-12 flex flex-wrap gap-4">
